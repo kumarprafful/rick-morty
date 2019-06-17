@@ -1,7 +1,7 @@
 import React from 'react';
-import {IEpisode} from './interfaces'
+import {IEpisode, IProps} from './interfaces'
 
-export default function EpisodesList(props:any):JSX.Element[] {
+export default function EpisodesList(props:IProps):JSX.Element[] {
   const {episodes, toggleFavAction, favourites, store} = props
   const {state, dispatch} = store
   return episodes.map((episode:IEpisode) => {

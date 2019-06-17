@@ -1,5 +1,12 @@
 export type Dispatch = React.dispatch<IAction>
 
+export interface IProps {
+  episodes: Array<IEpisode>
+  toggleFavAction: FavAction
+  favourites: Array<IEpisode>
+  store: { state: IState; dispatch: Dispatch }
+}
+
 export interface IEpisode {
   airdate: string
   airstamp: string
