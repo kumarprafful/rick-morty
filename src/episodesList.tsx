@@ -9,6 +9,7 @@ export default function EpisodesList(props:IProps):JSX.Element[] {
       <section key={episode.id}>
         <img src={episode.image?episode.image.medium:''} alt={episode.name} />
         <div>{episode.name}</div>
+        <p>Ad here</p>
         <section style={{display:'flex', justifyContent: 'space-between'}}>
           Season: {episode.season} Number: {episode.number}
           <button onClick={()=> toggleFavAction(state, dispatch, episode)}>{favourites.find((fav:IEpisode)=>fav.id === episode.id)?'Unfav': 'Fav'}</button>
