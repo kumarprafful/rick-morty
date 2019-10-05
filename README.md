@@ -1,5 +1,5 @@
 # Rick and Morty(Fav picker)
 
-## typescript | react hooks | context api
+## typescript | react hook
 
 #### made in typescript
