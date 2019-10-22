@@ -1,6 +1,6 @@
 # Rick and Morty(Favorite picker)
 
-## typescript | react hooks | context api
+## typescript | react hook
 
 
 Made By Pr
